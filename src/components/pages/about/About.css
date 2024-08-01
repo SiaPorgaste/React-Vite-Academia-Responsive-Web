@@ -1,0 +1,110 @@
+.aboutHome {
+  margin-top: 82vh;
+  height: auto;
+  margin-bottom: 4vh;
+  z-index: 0;
+  position: relative;
+}
+
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 1.5vh;
+}
+
+.aboutHome .right {
+  padding: 50px 50px;
+}
+
+.aboutHome .items {
+  margin-top: 50px;
+}
+
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.aboutHome .item p {
+  color: #999999;
+  transition: 0.5s;
+}
+
+.aboutHome .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.aboutHome .item:hover p {
+  color: #fff;
+}
+
+.awrapper {
+  background-image: url("../../../assets/images/background/awrapper_bg.webp");
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+.awrapper .box {
+  padding: 70px 0;
+}
+
+.awrapper img {
+  margin-right: 30px;
+}
+
+.awrapper h1 {
+  font-size: 50px;
+}
+
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .awrapper {
+    margin-top: 15px;
+    height: 35vh;
+  }
+
+  .aboutHome {
+    margin-top: 60vh;
+  }
+
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutHome .row {
+    width: 100%;
+    padding-top: 50px 20px;
+  }
+
+  .awrapper .box {
+    padding: 10px 0;
+  }
+}

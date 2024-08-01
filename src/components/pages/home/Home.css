@@ -1,0 +1,55 @@
+.home .courseCard {
+  margin-top: 0;
+}
+
+.home .online {
+  padding-bottom: 0;
+}
+
+.home .testimony {
+  padding-top: 0;
+}
+
+.home .blog {
+  padding: 40px 0;
+}
+
+.home .price {
+  padding: 40px 0;
+}
+
+.home .price .items {
+  padding: 40px;
+  text-align: center;
+}
+
+.home .price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+
+.home .price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+
+.home .price p {
+  color: grey;
+  margin: 40px 0;
+}
+
+.home .price #heading h1 {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .home .online .container {
+    margin-bottom: 20px;
+  }
+
+  .home .blog {
+    margin-top: 0;
+  }
+}

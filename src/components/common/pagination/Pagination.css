@@ -1,0 +1,20 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.pagination .pageIdxBtn {
+  max-width: 50px;
+  max-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination .pageIdxBtn.active {
+  color: #fff;
+  background-color: #1eb2a6;
+  font-weight: bold;
+}
